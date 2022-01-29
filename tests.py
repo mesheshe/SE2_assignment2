@@ -14,16 +14,16 @@ class tts(unittest.TestCase):
         self.assertTrue(cf(0))
 
     def test4(self):
-        self.assertTrue(cf(80))
+        self.assertTrue(cf(50))
 
     def test5(self):
-        self.assertFalse(cf())
+        self.assertFalse(cf(51))
 
     def test6(self):
-        self.assertTrue(cf(125))
+        self.assertTrue(cf(150))
 
-    def test7(self):
-        self.assertTrue(cf(125))
+    # def test7(self):
+    #     self.assert(cf(15))
 
 
 if __name__ == '__main__':
