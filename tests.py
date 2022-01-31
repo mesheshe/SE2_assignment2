@@ -22,8 +22,8 @@ class tts(unittest.TestCase):
     def test6(self):
         self.assertTrue(cf(150))
 
-    # def test7(self):
-    #     self.assert(cf(15))
+    def test7(self):
+        self.assertFalse(cf(151))
 
 
 if __name__ == '__main__':
